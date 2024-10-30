@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "content": "I love this new product!",
+      "author": "user123",
+      "timestamp": "2024-03-28T10:00:00",
+      "comments": [
+        {
+          "id": "c1",
+          "content": "Me too, it's amazing!",
+          "author": "user456",
+          "timestamp": "2024-03-28T10:05:00"
+        },
+        {
+          "id": "c2",
+          "content": "I didn't like it as much.",
+          "author": "user789",
+          "timestamp": "2024-03-28T10:10:00"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "content": "This product could use some improvements.",
+      "author": "user234",
+      "timestamp": "2024-03-29T11:00:00",
+      "comments": [
+        {
+          "id": "c3",
+          "content": "I agree! Needs more features.",
+          "author": "user567",
+          "timestamp": "2024-03-29T11:05:00"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "content": "Absolutely fantastic experience!",
+      "author": "user345",
+      "timestamp": "2024-03-30T12:00:00",
+      "comments": []
+    },
+    {
+      "id": "4",
+      "content": "Not worth the money.",
+      "author": "user456",
+      "timestamp": "2024-03-31T09:15:00",
+      "comments": [
+        {
+          "id": "c4",
+          "content": "I had a similar experience.",
+          "author": "user678",
+          "timestamp": "2024-03-31T09:20:00"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "content": "Will buy again!",
+      "author": "user567",
+      "timestamp": "2024-04-01T15:30:00",
+      "comments": []
+    },
+
+    {
+      "id": "100",
+      "content": "This is the best thing I've ever bought!",
+      "author": "user999",
+      "timestamp": "2024-05-05T08:00:00",
+      "comments": [
+        {
+          "id": "c200",
+          "content": "I feel the same way!",
+          "author": "user888",
+          "timestamp": "2024-05-05T08:05:00"
+        }
+      ]
+    }
+  ]
+}
