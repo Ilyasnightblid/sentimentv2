@@ -40,4 +40,3 @@ public class DataStorageService {
         return posts;
     }
 }
-10

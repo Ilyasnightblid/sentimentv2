@@ -3,7 +3,7 @@ package com.socialanalyzer.config;
 import org.apache.spark.sql.SparkSession;
 
 public class SparkConfig {
-    private SparkSession sparkSession;
+    private final SparkSession sparkSession;
 
     public SparkConfig() {
         sparkSession = SparkSession.builder()

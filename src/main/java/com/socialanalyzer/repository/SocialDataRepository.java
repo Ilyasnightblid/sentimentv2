@@ -1,18 +1,30 @@
 package com.socialanalyzer.repository;
 
-import com.socialanalyzer.model.post;
-
+import com.socialanalyzer.model.Post;
+import java.util.ArrayList;
 import java.util.List;
 
 public class SocialDataRepository {
+    private List<Post> posts;
 
-    public List<post> fetchPosts() {
-        // Fetch posts from the database
-        return List.of();
+    public SocialDataRepository() {
+        this.posts = new ArrayList<>();
     }
 
-    public void savePost(post post) {
-        // Save post to the database
+    public void savePost(Post post) {
+        posts.add(post);
+    }
+
+    public List<Post> getAllPosts() {
+        return posts;
+    }
+
+    public Post getPostById(String id) {
+        for (Post post : posts) {
+            if (post.getId().equals(id)) {
+                return post;
+            }
+        }
+        return null;
     }
 }
-

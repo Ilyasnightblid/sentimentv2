@@ -6,10 +6,8 @@ import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SparkSession;
 
 public class SentimentAnalyzerService {
-    private SparkSession sparkSession;
 
     public SentimentAnalyzerService(SparkSession sparkSession) {
-        this.sparkSession = sparkSession;
     }
 
     public SentimentResult analyzeSentiment(String text) {

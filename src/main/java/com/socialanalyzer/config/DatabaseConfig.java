@@ -5,11 +5,11 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConfig {
-    private String url = "jdbc:mysql://localhost:3306/social_analyzer";
-    private String user = "username";
-    private String password = "password";
 
     public Connection getConnection() throws SQLException {
+        String url = "jdbc:mysql://localhost:3306/social_analyzer";
+        String password = "password";
+        String user = "username";
         return DriverManager.getConnection(url, user, password);
     }
 }

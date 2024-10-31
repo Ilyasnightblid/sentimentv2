@@ -3,7 +3,7 @@ package com.socialanalyzer.config;
 import org.apache.hadoop.conf.Configuration;
 
 public class HadoopConfig {
-    private Configuration configuration;
+    private final Configuration configuration;
 
     public HadoopConfig() {
         configuration = new Configuration();
